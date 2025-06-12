@@ -1,6 +1,10 @@
 async function fetchProducts() {
   try {
-    const response = await fetch("http://localhost:3000/products");
+    //Run Locally
+    // const response = await fetch("http://localhost:3000/products");
+    const response = await fetch(
+      "https://week5-backend-1.onrender.com/products"
+    );
     const products = await response.json();
 
     const productList = document.getElementById("product-list");
