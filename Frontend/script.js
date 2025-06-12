@@ -23,6 +23,6 @@ fetchProducts();
 document.addEventListener("DOMContentLoaded", () => {
   const githubButton = document.getElementById("github-button");
   githubButton.addEventListener("click", () => {
-    window.open("https://github.com/your-username/your-repo", "_blank");
+    window.open("https://github.com/halimaarh/Week5-Frontend.git", "_blank");
   });
 });
